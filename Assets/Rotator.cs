@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]
+    private Vector3 vector;
+
     void Start()
     {
 
